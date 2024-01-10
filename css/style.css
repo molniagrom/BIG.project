@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Arvo:regular,italic,700,700italic");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap&subset=crillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular&display=swap&subset=crillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,regular,700&display=swap");
 /* &display=swap&subset=crillic-ext */
 /*  Обнуление СТИЛЕЙ */
 *,
@@ -44,19 +48,17 @@ body {
   font-family: "Roboto";
   line-height: 1;
   color: #000000;
-  background: #333;
   font-size: 30px;
 }
 
 .wrapper {
   min-height: 100%;
   overflow: hidden;
-  padding: 50px;
   text-align: center;
 }
 
 .sait {
-  background-color: #333;
+  width: 100%;
 }
 .sait__colum {
   display: -webkit-box;
@@ -69,4 +71,128 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.together {
+  width: 100%;
+  background: url(../img/bacgroun__1.png) 0 0/cover no-repeat;
+}
+.together__colum {
+  padding-bottom: 11.13%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.together__top {
+  margin: 0px 0px 16% 0px;
+}
+.together__tittle {
+  color: #FFF;
+  text-align: center;
+  font-family: "Lora";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102%;
+  letter-spacing: 2px;
+  margin: 0px 0px 2% 0px;
+}
+.together__sub-tittle {
+  color: rgba(255, 255, 255, 0.63);
+  text-align: center;
+  font-family: "Oxygen";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.647%;
+  margin: 0px 0px 2.15% 0px;
+}
+.together__button {
+  margin: 0 auto;
+  max-width: 24%;
+  color: #fff;
+  border-radius: 3px;
+  background: #DD783F;
+}
+.together__button p {
+  padding: 7.19% 18.56%;
+  color: #FFF;
+  text-align: center;
+  font-family: "Oxygen";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.846%;
+}
+
+.top__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+@media (max-width: 405px) {
+  .top__logo {
+    margin: 0px 60% 0px 0px;
+  }
+}
+@media (max-width: 250px) {
+  .top__logo {
+    margin: 0px 40% 0px 0px;
+  }
+}
+.top__logo p {
+  padding: 20px 0px 0px 0px;
+  color: #FFF;
+  font-family: "Lora";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+.top__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 12%;
+     -moz-column-gap: 12%;
+          column-gap: 12%;
+}
+@media (max-width: 675px) {
+  .top__menu {
+    margin: 0px 20% 0px 0px;
+  }
+}
+@media (max-width: 405px) {
+  .top__menu {
+    display: none;
+  }
+}
+.top__menu p {
+  padding: 27px 0px 0px 0px;
+  color: #FFF;
+  font-family: "Oxygen";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.667%;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.button {
+  text-align: center;
+  font-family: "Oxygen";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.846%;
 }
