@@ -56,3 +56,15 @@ html{
     padding: 50px;
     text-align: center;
  }
+
+ .sait {
+  background-color: #333;
+    // .sait__colum
+
+    &__colum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
