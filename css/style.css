@@ -260,3 +260,127 @@ body {
   font-weight: 400;
   line-height: 20px; /* 142.857% */
 }
+
+.featured {
+  width: 100%;
+}
+.featured__colum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 15% 0px 15%;
+}
+.element__text {
+  margin: 0px 0px 2% 0px;
+}
+.element__text p {
+  color: #2E2E2E;
+  text-align: center;
+  font-family: "Oxygen";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 2px;
+  padding: 0px 0px 2% 0px;
+}
+.boxis__row {
+  -webkit-column-gap: 2.6%;
+     -moz-column-gap: 2.6%;
+          column-gap: 2.6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.boxis__card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  max-height: 280px;
+}
+.boxis__box {
+  max-height: 280px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: url(../img/background/background__1.png) 0 0/cover no-repeat;
+}
+.boxis__tittle {
+  text-align: left;
+  margin: 0px 0px 0.6% 4.34%;
+  padding: 56.07% 0px 0px 0px;
+  color: #FFF;
+  font-family: "Lora";
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 111.111%;
+}
+.boxis__sub-tittle {
+  margin: 0px 0px 4.28% 4.34%;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Oxygen";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 178.571%;
+}
+.boxis__bottom {
+  margin: 0px 4.34% 0px 4.34%;
+}
+
+.bottom__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.bottom__name {
+  margin: 0px 0px 0px -20%;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Oxygen";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 318.182%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+.bottom__date {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Oxygen";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 291.667%;
+}
+
+.box-2 {
+  background: url(../img/background/background__2.png) 0 0/cover no-repeat;
+}

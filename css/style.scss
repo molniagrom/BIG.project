@@ -258,3 +258,163 @@ line-height: 20px; /* 142.857% */
     }
 }
 
+.featured {
+   width: 100%;
+    // .featured__colum
+
+    &__colum {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 15% 0px 15%;
+    }
+
+    // .featured__element
+
+    &__element {
+    }
+}
+.element {
+
+    // .element__row
+
+    &__row {
+    }
+
+    // .element__text
+
+    &__text {
+        margin: 0px 0px 2% 0px;
+        p{
+            color: #2E2E2E;
+text-align: center;
+font-family: "Oxygen";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; 
+letter-spacing: 2px;
+
+padding: 0px 0px 2% 0px;
+        }
+    }
+
+    // .element__boxis
+
+    &__boxis {
+    }
+}
+.boxis {
+
+    // .boxis__row
+
+    &__row {
+        column-gap: 2.6%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+         align-items: baseline;
+        
+    }
+
+    // .boxis__card
+
+    &__card {
+        flex: 0 1 50%;
+        max-height: 280px;
+    }
+
+    // .boxis__box
+
+    &__box {
+        max-height: 280px;
+        // max-height: 280px;
+         flex: 1;
+        background: url(../img/background/background__1.png) 0 0 / cover no-repeat;
+    }
+
+    // .boxis__tittle
+
+    &__tittle {
+        text-align: left;
+        margin: 0px 0px 0.6% 4.34%;
+          padding: 56.07% 0px 0px 0px;
+        color: #FFF;
+font-family: "Lora";
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: 111.111%; 
+    }
+
+    // .boxis__sub-tittle
+
+    &__sub-tittle {
+        margin: 0px 0px 4.28% 4.34%;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.70);
+font-family: "Oxygen";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 178.571%; 
+    }
+
+    // .boxis__bottom
+
+    &__bottom {
+        margin: 0px 4.34% 0px 4.34%;
+
+    }
+    // .boxis__button
+    // &__button {
+
+    // }
+
+
+}
+.bottom {
+
+    // .bottom__row
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    // .bottom__icon
+
+    &__icon {
+    }
+
+    // .bottom__name
+
+    &__name {
+        margin: 0px 0px 0px -20%;
+        color: rgba(255, 255, 255, 0.70);
+font-family: "Oxygen";
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 318.182%; 
+flex: 0 1 auto;
+    }
+
+    // .bottom__date
+
+    &__date {
+        color: rgba(255, 255, 255, 0.70);
+font-family: "Oxygen";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 291.667%; 
+
+    }
+}
+
+.box-2{
+    background: url(../img/background/background__2.png) 0 0 / cover no-repeat;
+}
