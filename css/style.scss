@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oxygen:300,regular,700&display=swap");
 
 /* &display=swap&subset=crillic-ext */
- /*  Обнуление СТИЛЕЙ */
+ 
  
  *,
  * ::before,
@@ -141,6 +141,18 @@ line-height: 153.846%;
 background: #DD783F;
     }
 }
+.top__menu a {
+    color: #FFF;
+    font-family: "Oxygen";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%; 
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+     }
+
 .top {
 
     // .top__row
@@ -174,11 +186,14 @@ line-height: 100%;
         }
     }
 
-    // .top__menu
+     
 
     &__menu {
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px 0px 0px;
         @media (max-width:675px) {
-            margin: 0px 20% 0px 0px;
+            // margin: 0px 20% 0px 0px;
         }
         @media (max-width:405px) {
             display: none;
@@ -386,7 +401,7 @@ line-height: 178.571%;
 margin: 0px 20px 15px 20px;
     // .bottom__row
 
-    &__row {
+    &__row-1 {
         @media (max-width: 303px) {
             flex-direction: column;
             text-align: center;
@@ -668,6 +683,9 @@ line-height: normal;
         width: 79%;
         margin: -10% 0px 0px 0px;
     }
+    @media (max-width:400px) {
+       display: none;
+    }
 
     position: absolute;
     margin: -4% 0px 0px 0px;
@@ -676,4 +694,157 @@ display: inline-block;
 width: 19%;
 height: 1px;
 background: #DEDEDE;
+}
+.boxis {
+
+    // .boxis__bottom
+
+    &__bottom {
+        @media (max-width:1181px) {
+            width: 80%;
+        }
+        width: 93%;
+    }
+}
+.bottom {
+
+    // .bottom__row
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .bottom__icon
+
+    &__icon {
+    }
+
+    // .bottom__name
+
+    &__name {
+        position: absolute;
+        margin: 0px 0px 0px 2.8%;
+    }
+
+    // .bottom__date
+
+    &__date {
+    }
+}
+.black-txt {
+}
+
+// ..................................................................
+.stay {
+width: 100%;
+background: url("../img/bottom/item.jpg") 0px 0px / cover no-repeat;
+
+    // .stay__colum
+
+    &__colum {
+    }
+
+    // .stay__first
+
+    &__first {
+    }
+
+    // .stay__second
+
+    &__second {
+        background-color: rgba(35, 47, 56, 0.6);
+        padding: 31.5px 0px 31.5px 0px;
+    }
+}
+.first {
+
+    // .first__text
+
+    &__text {
+padding: 81px 0px 0px 0px;
+
+        color: rgb(239, 239, 239);
+font-family: "Oxygen";
+font-size: 25px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+    }
+
+    &__text::after {
+        transform: translateY(-12px);
+        content: "";
+        width: 188px;
+        height: 1px;
+        background: #DEDEDE;
+        margin: 0 auto;
+        display: inline-block;
+       }
+
+    // .first__form
+
+    &__form {
+        margin: 0px 0px 90px 0px;
+    }
+
+    // .first__email
+
+    &__email {
+        border-radius: 3px 0px 0px 3px;
+        background: rgb(255, 255, 255);
+
+        padding: 18px 208px 18px 35px;
+        color: rgb(129, 127, 131);
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    // .first__button
+
+    &__button {
+        transform: translateX(-10%);
+        padding: 18px 44.5px;
+        border-radius: 0px 3px 3px 0px;
+        background: rgba(255, 255, 255, 0.28);
+
+        color: rgb(248, 248, 248);
+font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: left;
+    }
+}
+.top {
+margin: 31.5px 0px 31.5px 0px;
+    // .top__row-2
+
+    &__row-2 {
+        display: flex;
+        flex-direction: row;
+  justify-content: space-around;
+    }
+
+    // .top__logo
+
+    &__logo {
+      
+        
+    }
+
+    // .top__menu
+
+    &__menu {
+       
+
+    }
 }
